@@ -1,3 +1,8 @@
+<html>
+<head>
+<title>Sample Deployment</title>
+</head>
+<body>
 <b>Hi there,</b><br />
 
 <div style="color:darkgreen">The deployment has been successful. <br />
@@ -35,3 +40,5 @@ echo "</table>";
 
 mysqli_close($con);
 ?> 
+</body>
+</html>
