@@ -1,8 +1,12 @@
-<h1>Hello</h1><br />
-If you are seeing this page it means deployment has been successfull.
-<br />
-The below contents are read from MySQL DB.
+<b>Hi there,</b><br />
 
+<div style="color:darkgreen">The deployment has been successful. <br />
+You are seeing this page as a result of the deployment.
+</div>
+
+<br />
+The below contents are read from MySQL DB as part of testing MySQL database operations.
+<br />
 <?php
 $con=mysqli_connect("localhost","root","","test");
 // Check connection
